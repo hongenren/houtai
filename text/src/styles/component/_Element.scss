@@ -1,0 +1,113 @@
+.container-fluid{
+    .el-pagination{
+        padding: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .el-input__icon{
+        line-height: 30px;
+    }
+    .el-select .el-input.is-focus .el-input__inner,
+    .el-select .el-input__inner:focus{
+        border-color: $color-input-focus;
+    }
+    .el-input__inner{
+        font-size: $small-font;
+    }
+    .el-cascader-menu__item.is-active{
+        color: $color-extra;
+    }
+    .el-cascader__label{
+        color: $color-minor;
+        span{
+            color: $color-minor;
+        }
+    }
+    .el-input__inner {
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid $color-border;
+        background-color: transparent;
+    }
+    .el-tabs__item.is-active{
+        color: $color-tab-active;
+    }
+    .el-tabs__active-bar{
+        background-color: $color-tab-active;
+    }
+    .el-cascader__label{
+        padding-left: 5px;
+        font-size: 12px;
+    }
+    .el-menu{
+        border-right: none;
+    }
+    .el-select{
+        width: 100%;
+        height: 30px;
+    }
+    .navMenu{
+        min-height: 400px !important;
+    }
+    .el-upload--picture-card{
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        border: 1px solid $color-border;
+        background-color: #fff;
+        border-radius: 0;
+        i{
+            font-size: 20px;
+        }
+    }
+    .el-upload-list--picture-card .el-upload-list__item{
+        height: 60px;
+        width: 60px;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+    .el-menu-item, .el-submenu__title{
+        line-height: 35px !important;
+        height: 35px !important;
+    }
+    .el-input.is-disabled .el-input__inner{
+        background-color: transparent;
+        height: 30px !important;
+    }
+    .el-pagination.is-background .el-pager li:not(.disabled).active{
+        background-color: $color-extra;
+    }
+    .el-pagination li:hover {
+        background-color: #e0370f;
+        color: #fff !important;
+    }
+    .el-date-editor.el-input, .el-date-editor.el-input__inner{
+        width: 100%;
+    }
+
+    //  左对齐
+    .base-info dl dt, .el-form-item__label {
+        text-align: left;
+    }
+}
+.el-message-box__wrapper{
+    .el-button--primary{
+        background-color: $color-extra;
+        border-color: $color-extra;
+        font-size: 14px;
+        line-height: 28px;
+        width: auto;
+        padding: 0 16px;
+    }
+}
+.client {
+    .el-dialog {
+        border-radius: 5px;
+    }
+    .el-dialog__header {
+        border-bottom: 1px solid #DCE0E4;
+        padding: 15px;
+    }
+}
+
+

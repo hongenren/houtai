@@ -1,0 +1,76 @@
+.gy-button-normal, .gy-button-extra{
+    border-radius: $border-radius-small;
+    padding: 0 16px;
+    line-height: 28px;
+    border: 1px solid $color-border;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.gy-button-normal{
+    background-color: #fff;
+    color: $color-main;
+    border-color: $color-border;
+    &:hover{
+        border-color: $color-highlight;
+        color: $color-highlight;
+        background-color: #fff;
+    }
+    &.disable{
+        cursor: not-allowed;
+        opacity: 0.6;
+        &:hover{
+            color: $color-main;
+            border-color: $color-border;
+        }
+    }
+    &.selected{
+        border-color: $color-highlight;
+        color: $color-highlight;
+    }
+    &.warning{
+        border-color:$color-warning;
+        color:$color-warning;
+    }
+}
+.gy-button-extra{
+    background-color: $color-highlight;
+    color: #fff;
+    border-color: $color-highlight;
+    &:hover{
+        opacity: 0.8;
+        color: #fff;
+    }
+    &.disable{
+        cursor: not-allowed;
+        border-color: $color-border;
+        background-color: $color-light;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+.gy-button-view{
+    color: #4a90e2;
+    font-size: $small-font;
+    border: 1px solid $color-extra;
+    border-radius: $border-radius-base;
+    line-height: 12px;
+    padding: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    &:hover{
+        color: $color-extra;
+    }
+}
+.gy-button-views{
+    color: #4a90e2;
+    font-size: $small-font;
+    background: $color-white;
+    line-height: 12px;
+    padding: 2px;
+    &:hover{
+        color: $color-extra;
+    }
+}

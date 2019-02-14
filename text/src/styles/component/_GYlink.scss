@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+a, a.gy-link{
+    border: none;
+    color: $color-a-link;
+    &:hover{
+        color: $color-a-hover;
+    }
+    &.selected{
+        color: $color-highlight;
+    }
+}

@@ -1,0 +1,79 @@
+$prefix-for-webkit:    false;
+$prefix-for-mozilla:   false;
+$prefix-for-microsoft: false;
+$prefix-for-opera:     false;
+$prefix-for-spec:      false;
+
+// Color
+$color-body-bg: #f5f5f5 !default;
+$color-title: #333 !default;
+$color-white: #fff !default;
+$color-black: #000 !default;
+$color-main: #666 !default;
+$color-minor: #999 !default;
+$color-light: #b5b5b5 !default;
+$color-border: #e6eaea !default;
+$color-highlight: #e0370f !default;
+$color-a-link: #666 !default;
+$color-a-hover: #e0370f !default;
+$color-a-active: #e0370f !default;
+$color-a-visited: #e0370f !default;
+$color-input-focus: #4a90e2 !default;
+$color-tab-active: #4a90e2 !default;
+$color-warning: #e6a23c !default;
+$color-extra: #4a90e2 !default;
+
+// Fonts
+$body-font-family: "Microsoft YaHei";
+$body-font-size: 14px;
+$small-font: 12px;
+
+// Radius settings
+$border-radius-base: 5px;
+$border-radius-small: 3px;
+$border-radius-large: 10px;
+
+// Grid
+$column-count: 12 !default;
+$column-selector: '.col' !default;
+$offset-modifier: 'offset' !default;
+
+$gutter-width: 15px !default;
+$outer-margin: 15px !default;
+$gutter-compensation: 5px !default;
+$half-gutter-width: 5px !default;
+
+$width-xs: 30 !default;
+$width-sm: 48 !default;
+$width-md: 62 !default;
+$width-lg: 75 !default;
+
+$viewport-xs: $width-xs * 10px !default;
+$viewport-sm: $width-sm * 10px !default;
+$viewport-md: $width-md * 10px !default;
+$viewport-lg: $width-lg * 10px !default;
+
+$container-sm: $width-sm * 10px + $gutter-width !default;
+$container-md: $width-md * 10px + $gutter-width !default;
+$container-lg: $width-lg * 10px + $gutter-width !default;
+
+$xs: 'xs' !default;
+$sm: 'sm' !default;
+$md: 'md' !default;
+$lg: 'lg' !default;
+
+$block-delimiter: '-' !default;
+$element-delimiter: '-' !default;
+$modifier-delimiter: '-' !default;
+
+$default-query: $viewport-xs !default;
+$queries: (
+  $xs: $viewport-xs,
+  $sm: $viewport-sm,
+  $md: $viewport-md,
+  $lg: $viewport-lg
+) !default;
+
+// $column-properties: 'flex-basis', 'max-width' !default;
+$column-properties: 'flex-basis', 'width' !default;
+$offset-properties: 'margin-left' !default;

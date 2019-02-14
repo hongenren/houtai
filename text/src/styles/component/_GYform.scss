@@ -1,0 +1,97 @@
+.gy-form{
+    padding: 20px 0 20px 15px;
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+.gy-form-group{
+    width: 50%;
+    float: left;
+    position: relative;
+    padding: 8px 30px 8px 108px;
+    min-height: 50px;
+    line-height: 30px;
+    color: $color-minor;
+    .l{
+        position: absolute;
+        left: 0;
+        top: 10px;
+        color: $color-title;
+        width: 98px;
+        padding-left: 15px;
+        strong{
+            color: $color-highlight;
+            font-size: 12px;
+            font-weight: normal;
+            width: 8px;
+            position: absolute;
+            left: 0;
+            text-align: left;
+            top: 0;
+        }
+    }
+    &.single-row{
+        width: 100%;
+    }
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    &.error{
+        input, select, textarea{
+            color: $color-highlight !important;
+            border-bottom-color: $color-highlight !important;
+        }
+    }
+}
+.gy-form-button{
+    clear: both;
+    text-align: right;
+    padding-right: 40px;
+}
+input[type=text], input[type=password], .gy-input, .gy-textarea, .gy-select{
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #e7ecf1;
+    padding: 0 5px;
+    color: $color-minor;
+    height: 30px;
+    line-height: 29px;
+    vertical-align: middle;
+    &:hover{
+        border-color: #c0c4cc;
+    }
+    &:focus{
+        border-color: $color-extra;
+    }
+    &:disabled{
+        cursor: not-allowed;
+    }
+    &::-webkit-input-placeholder{
+        color: #999;
+        font-size: 14px;
+    }
+}
+.gy-textarea{
+    resize: none;
+    font-size: 14px;
+    height: 60px;
+    border: 1px solid $color-border;
+    border-radius: $border-radius-small;
+    font-family: "Microsoft YaHei";
+    &::-webkit-input-placeholder{
+        color: #999;
+        font-size: 14px;
+    }
+}
+.gy-radio{
+    border: 1px solid #e7ecf1;
+}
+.gy-checkbox{
+    border: 1px solid #e7ecf1;
+}
